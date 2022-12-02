@@ -1,0 +1,257 @@
+.bg {
+    background-color: rgba(42, 42, 189, 0.8);
+   
+}
+
+.navbar-expand-md {
+    text-align: center;
+}
+
+
+h1 {
+    font-weight: bold;
+    font-family: serif;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    text-align: center;
+    color: #006dbb;
+}
+
+h2 {
+    color: red;
+}
+
+h3 {
+    font-size: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #ffffff;
+}
+
+p {
+    margin-bottom: 40px;
+}
+
+.neet {
+    margin-left: 40px;
+    margin-bottom: 40px;
+    width: 300px;
+    height: 250px;
+    cursor: pointer;
+    color: #FFF;
+    font-size: 2em;
+    border-radius: 4px;
+    border: 1px solid #bbb;
+    transition: all 0.3s linear;
+}
+
+.neet:hover {
+    -webkit-box-shadow: rgba(0, 0, 0, 0.8) 0px 5px 15px, inset rgba(0, 0, 0, 0.15) 0px -10px 20px;
+    -moz-box-shadow: rgba(0, 0, 0, 0.8) 0px 5px 15px, inset rgba(0, 0, 0, 0.15) 0px -10px 20px;
+    -o-box-shadow: rgba(0, 0, 0, 0.8) 0px 5px 15px, inset rgba(0, 0, 0, 0.15) 0px -10px 20px;
+    box-shadow: rgba(0, 0, 0, 0.8) 0px 5px 15px, inset rgba(0, 0, 0, 0.15) 0px -10px 20px;
+}
+
+.grid-wrapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    grid-gap: 20px;
+}
+
+.neet:hover {
+    -webkit-transform: rotate(-7deg);
+    -moz-transform: rotate(-7deg);
+    -o-transform: rotate(-7deg);
+    transform: rotate(-7deg);
+}
+
+.card-img-top {
+    height: 200px;
+    width: 100%;
+}
+
+.logo {
+    margin-left: 10%;
+    width: 160px;
+    height: 46px;
+    border-radius: 4px;
+    overflow: hidden;
+    margin-top: -6px;
+}
+
+.containerwrapper{
+    margin-left: -20%;
+    margin-bottom: 2%;
+}
+.contact-form {
+    text-align: center;
+    border: 5px groove black;
+    border-radius: 10px;
+    width: 500px;
+    padding: 28px;
+    background: rgba(43, 73, 192, 0.9);
+    margin: 20px auto 0px auto;
+}
+
+.register input[type="text"]{
+    color:#000000
+}
+
+.register input[type="email"]{
+    color:#000000
+}
+.side2{
+    margin-top: -120%;
+    margin-left: 110%;
+}
+.input {
+    color: #ffffff;
+    margin: 1em;
+    border-radius: 5px;
+}
+
+label {
+    color: #ffffff;
+    font: bold 15px arial, sans-serif;
+}
+
+.sub {
+    background: #035AFA;
+    color: white;
+    border-style: outset;
+    border-radius: 10px;
+    border-color: #035AFA;
+    height: 50px;
+    width: 100px;
+    margin-bottom: 20px;
+    font: bold 15px arial, sans-serif;
+    text-shadow: none;
+}
+
+.sel {
+    background-color: #035AFA;
+    color: white;
+    border-radius: 5px;
+    height: 50px;
+    width: 100px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    font: bold 15px arial, sans-serif;
+}
+
+.dropdown-menu {
+    background-color: #1F7DDE;
+    border-radius: 20px;
+    font: bold 15px arial, sans-serif;
+    color: white;
+}
+
+.backend {
+    text-transform: uppercase;
+    font: bold 10px arial, sans-serif;
+    text-align: center;
+    margin: 70px, 70px;
+}
+
+.thead {
+    color: red;
+    font-size: 20px;
+}
+
+.tbody {
+    color: #0330fa;
+    font-size: 16px;
+}
+
+footer {
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #f4f4f4;
+}
+
+.footer-copyright {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.footerpara {
+    color: rgba(255, 255, 255, 0.6);
+    text-align: justify;
+}
+
+i {
+    padding: 10px;
+}
+
+.login {
+    width: 500px;
+    padding: 50px;
+    top: 50%;
+    left: 45%;
+    border: solid black;
+    transform: translate(-50%, -50%);
+    background: rgba(43, 73, 192, 0.9);
+    text-align: center;
+    position: relative;
+    margin-bottom: 4%;
+    
+}
+
+.side{
+    margin-top: -38.5%;
+    margin-left: 55%;
+}
+
+
+
+.login input[type="email"],
+.login input[type="password"] {
+    border: 0;
+    background: white;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 3px solid rgb(0, 0, 0);
+    padding: 14px 35px;
+    outline: none;
+    width: 220px;
+    color: rgb(0, 0, 0);
+    border-radius: 24px;
+    transition: 0.25px;
+}
+
+.login input[type="submit"] {
+    background: black;
+    display: block;
+    width: 30%;
+    margin: 20px auto;
+    text-align: center;
+    border: 1px solid #000000;
+    padding: 14px 10px;
+    outline: none;
+    color: rgba(255, 255, 255, 0.8);
+    border-radius: 30px;
+    transition: 0.25px;
+    cursor: pointer;
+}
+
+.login input[type="submit"]:hover {
+    background: #490082;
+}
+
+.gap {
+    padding-top: 260px;
+}
+
+.L1{
+    color:rgb(254, 254, 254);
+    
+}
+
+
+
+
+
+
+
+
+
